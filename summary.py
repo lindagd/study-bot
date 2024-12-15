@@ -4,7 +4,8 @@ from telegram import Update
 
 class Summary:
     def __init__(self):
-        self.client = "YOUR-GROQ-API-KEY-HERE"
+        GROQ_KEY = "YOUR-GROQ-KEY"
+        self.client = Groq(api_key=GROQ_KEY)
 
     def fetch_summary(self, query):
         response = self.client.chat.completions.create(
