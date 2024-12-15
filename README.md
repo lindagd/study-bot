@@ -5,8 +5,9 @@ O bot foi desenvolvido com o objetivo de aprender a desenvolver chatbots e a int
 
 ## Funcionalidades
 
-- Técnica Pomodoro, com o comando `/pomodoro`
-- Resumo de tópicos, com o comando `/resumir` + tópico de escolha
+ Pomodoro           |  Resumo de tópicos
+:-------------------------:|:-------------------------:
+ ![Imagem do WhatsApp de 2024-12-15 à(s) 13 34 43_cb0a16e9](https://github.com/user-attachments/assets/fba56530-4cbd-4a60-8831-c9d2112ef75a) | ![Imagem do WhatsApp de 2024-12-15 à(s) 13 22 55_424f000a](https://github.com/user-attachments/assets/70279fc4-e873-47db-84a8-b9c2c0b13d7e)
 
 ## Setup
 
@@ -28,9 +29,8 @@ Utilize o BotFather para criar o seu bot e obter seu token. Siga as instruções
 
 ### Insira seus Token e Chave no código
 
-Nas primeiras linhas do arquivo *main*, após os *imports*, inclua seu token do bot substituindo a string da variável `TOKEN = "seu-token"`
-
-No arquivo *summary*, inclua sua chave da API Groq na variável `self.client = "YOUR-GROQ-API-KEY-HERE"`
+1. Nas primeiras linhas do arquivo *main*, após os *imports*, inclua seu token do bot substituindo a string da variável `TOKEN = "seu-token"`
+2. No arquivo *summary*, inclua sua chave da API Groq na variável `GROQ_KEY = "YOUR-GROQ-KEY"`
 
 ### Rode o projeto
 
