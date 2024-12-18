@@ -21,7 +21,7 @@ Utilize o BotFather para criar o seu bot e obter seu token. Siga as instruções
 
 ### Clone este repositório:
 
-    git clone https://github.com/lindagd/telegram-study-bot
+    git clone https://github.com/lindagd/study-bot.git
 
 ### Instale as dependências
 
